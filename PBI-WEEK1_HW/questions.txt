@@ -1,0 +1,28 @@
+Power BI Case Study - WEEK 1
+Source: Data Science Academy (www.dsa.az)
+
+Questions:
+
+1. Import the Keys-Stadium file into the Power BI.
+
+2. Check the format of the columns of the data (figure, text).
+
+3. Subtract the RK and XR from the product column in the customer details table.
+
+4. Combine the Satish1-Satish2 tables by selecting Append queries as new.
+   Change the name of appended table as total sales.
+
+5. In the client details table, save the codes in the client code column simply by digits
+   (for this, use column from examples) change to Data type I Whole number format.
+   Note: Do this in the general sales Table.
+
+6. In the same table, we added a Conditional column in the cost column, name the lower than 135
+   as low and name the upper than 135 as high, name the new column, for example Sales Analysis.
+
+7. Select "Merge queries as new" in the customer details table and combine it with the customer
+   code in the general sales table.
+
+8. Make "Unpivot other columns" by selecting the customer code column in the "Unpivot" table.
+
+9. Close & Apply. Create Many-to-Many relationship between common sales and customer details
+   columns.
