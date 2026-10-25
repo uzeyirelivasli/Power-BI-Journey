@@ -25,7 +25,7 @@ I graduated in marketing from Azerbaijan State University of Economics and I am 
 | ---- | ----- | ------ | ------ |
 | 1 | Power Query: data cleaning, append, merge, unpivot, relationships | [PBI-WEEK1_HW](PBI-WEEK1_HW) | Done |
 | 2 | Data modeling, relationships, first dashboard: visuals, slicers, formatting | [PBI-WEEK2_HW](PBI-WEEK2_HW) | Done |
-| 3 | Basic DAX, advanced visuals, interactivity | PBI-WEEK3_HW | Not started |
+| 3 | DAX: calculated columns, measures, CALCULATE, KPI dashboard | [PBI-WEEK3_HW](PBI-WEEK3_HW) | Done |
 | 4 | Final dashboard project | PBI-WEEK4_HW | Not started |
 
 > I update this table every week.
@@ -57,9 +57,18 @@ Folder: [PBI-WEEK2_HW](PBI-WEEK2_HW)
 - Built a **clustered column chart** for ratings by category
 - Grouped product categories with **New group** and added a report **title**
 
-### Week 3
+### Week 3: DAX, measures and a KPI dashboard
 
-*(coming soon)*
+Folder: [PBI-WEEK3_HW](PBI-WEEK3_HW)
+
+![Week 3 dashboard](PBI-WEEK3_HW/Dashboard_Week3.png)
+
+- Checked the relationships between the Sales, Product and Channel tables
+- Created the `Profit` and `%, Profitability` calculated columns
+- Learned why a **measure** is better than a column for totals like Total Profit
+- Wrote measures for total sales, total profit, distinct orders, and "problematic" returns (return amount above 500)
+- Used **CALCULATE** with filters for Online revenue and high-value Litware sales
+- Built a dashboard with KPI cards, a sorted column chart of problematic returns by brand, and a table
 
 ### Week 4
 
@@ -74,12 +83,18 @@ Power-BI-Journey/
 │   ├── README.md
 │   ├── questions.txt
 │   └── PBI-W1-HomeWork.pbix
-└── PBI-WEEK2_HW/
+├── PBI-WEEK2_HW/
+│   ├── README.md
+│   ├── questions.txt
+│   ├── dashboard.png
+│   ├── PBI-W2_HomeWork.pbix
+│   └── SuperMarket_Data.xlsx
+└── PBI-WEEK3_HW/
     ├── README.md
-    ├── questions.txt
-    ├── dashboard.png
-    ├── PBI-W2_HomeWork.pbix
-    └── SuperMarket_Data.xlsx
+    ├── Power_BI_Case_Study_3.pdf
+    ├── Case_study_3.xlsx
+    ├── PBI-W3-HomeWork.pbix
+    └── Dashboard_Week3.png
 ```
 
 More folders will be added each week.
@@ -88,6 +103,7 @@ More folders will be added each week.
 
 - Power BI Desktop
 - Power Query
+- DAX
 - Excel / CSV datasets
 
 ## Contact
