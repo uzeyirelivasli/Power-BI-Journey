@@ -26,7 +26,7 @@ I graduated in marketing from Azerbaijan State University of Economics and I am 
 | 1 | Power Query: data cleaning, append, merge, unpivot, relationships | [PBI-WEEK1_HW](PBI-WEEK1_HW) | Done |
 | 2 | Data modeling, relationships, first dashboard: visuals, slicers, formatting | [PBI-WEEK2_HW](PBI-WEEK2_HW) | Done |
 | 3 | DAX: calculated columns, measures, CALCULATE, KPI dashboard | [PBI-WEEK3_HW](PBI-WEEK3_HW) | Done |
-| 4 | Final dashboard project | PBI-WEEK4_HW | Not started |
+| 4 | Data cleaning in Power Query + survey dashboard (treemap, gauges, stacked chart) | [PBI-WEEK4_HW](PBI-WEEK4_HW) | Done |
 
 > I update this table every week.
 
@@ -70,9 +70,16 @@ Folder: [PBI-WEEK3_HW](PBI-WEEK3_HW)
 - Used **CALCULATE** with filters for Online revenue and high-value Litware sales
 - Built a dashboard with KPI cards, a sorted column chart of problematic returns by brand, and a table
 
-### Week 4
+### Week 4: Data Professional Survey dashboard
 
-*(coming soon)*
+Folder: [PBI-WEEK4-HW](PBI-WEEK4-HW)
+
+![Week 4 dashboard](PBI-WEEK4-HW/Week4_Dashboard.png)
+
+- Cleaned a raw survey (630 answers) in Power Query: removed empty columns, fixed data types, split columns to remove extra text
+- Turned salary ranges like `41k-65k` into a number by taking the middle of the range (`AverageSalary`)
+- Built a **treemap** (country), a **bar chart** (average salary by job title) and a **stacked column chart** (favorite programming language by job title)
+- Added **cards** for average age and number of survey takers, and two **gauges** for happiness with salary and work-life balance
 
 ## Repository structure
 
@@ -89,12 +96,17 @@ Power-BI-Journey/
 │   ├── dashboard.png
 │   ├── PBI-W2_HomeWork.pbix
 │   └── SuperMarket_Data.xlsx
-└── PBI-WEEK3_HW/
+├── PBI-WEEK3_HW/
+│   ├── README.md
+│   ├── Power_BI_Case_Study_3.pdf
+│   ├── Case_study_3.xlsx
+│   ├── PBI-W3-HomeWork.pbix
+│   └── Dashboard_Week3.png
+└── PBI-WEEK4_HW/
     ├── README.md
-    ├── Power_BI_Case_Study_3.pdf
-    ├── Case_study_3.xlsx
-    ├── PBI-W3-HomeWork.pbix
-    └── Dashboard_Week3.png
+    ├── PowerBI-Week4.xlsx
+    ├── PBI-Week4.pbix
+    └── Week4_Dashboard.png
 ```
 
 More folders will be added each week.
