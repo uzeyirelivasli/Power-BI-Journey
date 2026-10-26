@@ -74,7 +74,7 @@ Folder: [PBI-WEEK3_HW](PBI-WEEK3_HW)
 
 Folder: [PBI-WEEK4_HW](PBI-WEEK4_HW)
 
-![Week 4 dashboard](PBI-WEEK4-HW/Week4_Dashboard.png)
+![Week 4 dashboard](PBI-WEEK4_HW/Week4_Dashboard.png)
 
 - Cleaned a raw survey (630 answers) in Power Query: removed empty columns, fixed data types, split columns to remove extra text
 - Turned salary ranges like `41k-65k` into a number by taking the middle of the range (`AverageSalary`)
