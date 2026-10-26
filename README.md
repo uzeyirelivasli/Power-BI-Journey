@@ -72,7 +72,7 @@ Folder: [PBI-WEEK3_HW](PBI-WEEK3_HW)
 
 ### Week 4: Data Professional Survey dashboard
 
-Folder: [PBI-WEEK4-HW](PBI-WEEK4-HW)
+Folder: [PBI-WEEK4_HW](PBI-WEEK4_HW)
 
 ![Week 4 dashboard](PBI-WEEK4-HW/Week4_Dashboard.png)
 
