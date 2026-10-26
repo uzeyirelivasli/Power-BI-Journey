@@ -2,8 +2,7 @@
 
 Second week of my [Power BI Journey](../README.md). This week I built a one-page **Product Analysis** dashboard on supermarket sales data (Jan to Mar 2019, three cities in Myanmar).
 
-![Product Analysis dashboard](PBI-WEEK2_HW/dashboard.png)
-
+![Product Analysis dashboard](dashboard.png)
 ## Files
 
 | File | Description |
